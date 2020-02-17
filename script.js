@@ -75,3 +75,13 @@ form.addEventListener('submit', function (e) {
   checkEmail(email);
   checkPasswordsMatch(password, password2);
 });
+
+// form.addEventListener('keyup', event => {
+//   event.preventDefault();
+
+//   checkRequired([username, email, password, password2]);
+//   checkLength(username, 3, 15);
+//   checkLength(password, 6, 25);
+//   checkEmail(email);
+//   checkPasswordsMatch(password, password2);
+// })

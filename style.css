@@ -2,8 +2,8 @@
 
 
 :root{
-  --primary-color:#062639;
-  --secondary-color: #02457a;
+  --primary-color:#77ADE6;
+  --secondary-color: #140750;
   --font-color:#f7efea;
   --font-color:#edf4ea;
   --success-color:#2ecc71;
@@ -27,7 +27,7 @@ body{
 .container {
   background-color: var(--secondary-color);
   border-radius: 5px;
-  box-shadow: 0 2px 30px rgb(0, 0, 0, 0.3);
+  box-shadow: 0 5px 30px rgb(0, 0, 0, 0.3);
   width: 400px;
 }
 
@@ -89,8 +89,8 @@ h2 {
 
 .form button {
   cursor: pointer;
-  background-color: #1c768f;
-  border: 2px solid #1c768f;
+  background-color: #6633FF;
+  border: 2px solid #6633FF;
   border-radius: 4px;
   color: var(--font-color);
   display: block;
